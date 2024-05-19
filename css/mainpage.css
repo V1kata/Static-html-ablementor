@@ -11,6 +11,7 @@
     background-color: aqua;
     width: 100vw;
     padding: 1em 0;
+    margin-bottom: 0;
 }
 
 .sec-wrapper {
@@ -100,16 +101,26 @@ i#next {
 
 footer {
     width: 100%;
-    padding: 0.01em;
     background-color: #343f4f;
     color: #fff;
     text-align: center;
     font-size: 20px;
+    padding: 1.35em 0;
+}
+
+footer p {
+    margin: 0;
 }
 
 footer a {
     text-decoration: underline;
     color: white;
+}
+
+@media (max-width: 1000px) {
+    .sec-wrapper {
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 768px) {
