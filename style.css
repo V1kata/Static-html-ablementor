@@ -1,6 +1,8 @@
 @import url('./css/nav.css');
 @import url('./css/mainpage.css');
 @import url('./css/createpage.css');
+@import url('./css/catalog.css');
+@import url('./css/details.css');
 
 html {
     font: 16px/1.2 sans-serif;
@@ -9,4 +11,17 @@ html {
 body {
     margin: 0;
     padding: 0;
+}
+
+.background {
+    background-image: url('./images/mainbackground.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
 }
